@@ -31,7 +31,7 @@ $(document).ready(function(){
 			});
   });
   $('a[href^="http://hentai.dx.am/id?=2"]').each(function(){
-    var LS1 = $(this).attr("href"); 
+    var LS2 = $(this).attr("href"); 
 		var VS2 = LS2.replace("http://hentai.dx.am/id?=2&v=", creampie); 
 		$(this).attr("id", "LS2"); 
 		$(this).attr("href", VS2); 
