@@ -7,12 +7,14 @@ $(document).ready(function(){
 		$(this).attr("href", Perawan); 
 		var ubah = document.getElementById("crot").href;
 		$(this).attr("style", "display:none;"); 
-	
-		var vbuka = ' pause controls controlsList="nodownload" oncontextmenu="return false;" style="width:100%;height:270px;">\n'+
+		var defaultCoverURL = 'https://1.bp.blogspot.com/-tLx71YR7oUA/X5HeT7uNqKI/AAAAAAAACmg/U6Ulo1CUi7sHgMykPzpuKzNu9VqEdWq9QCLcBGAsYHQ/s720-k/NiiHen.gif';
+    		$('#ListServer0').html( ' <button id="ServDef">Server Default</button> ' );    			
+			$("#ServDef").click(function(){	
+		var vbuka = ' cover="'+defaultCoverURL+'" pause controls controlsList="nodownload" oncontextmenu="return false;" style="width:100%;height:270px;">\n'+
 		'<source src="';
 		var vtutup = '" type="video/mp4"></video>';
-		$('#iframeHolder').html( '<video ' + vbuka + ubah  + vtutup );
-	
+		$('#iframeHolder').html( '<video ' + vbuka + ubah + vtutup );
+		});
 	});
 	
   $('a[href^="http://hentai.dx.am/id?=1"]').each(function(){
@@ -22,9 +24,10 @@ $(document).ready(function(){
 		$(this).attr("href", VS1); 
   		var Server1 = document.getElementById("LS1").href;
 		$(this).attr("style", "display:none;"); 
+    		var defaultCoverURL = 'https://1.bp.blogspot.com/-tLx71YR7oUA/X5HeT7uNqKI/AAAAAAAACmg/U6Ulo1CUi7sHgMykPzpuKzNu9VqEdWq9QCLcBGAsYHQ/s720-k/NiiHen.gif';
     		$('#ListServer').html( ' <button id="Serv1">Server Alternatif</button> ' );
-    			$("#Serv1").click(function(){
-			var vbuka = ' pause controls controlsList="nodownload" oncontextmenu="return false;" style="width:100%;height:270px;">\n'+
+			$("#Serv1").click(function(){
+			var vbuka = ' cover="'+defaultCoverURL+'" pause controls controlsList="nodownload" oncontextmenu="return false;" style="width:100%;height:270px;">\n'+
 			'<source src="';
 			var vtutup = '" type="video/mp4"></video>';
 			$('#iframeHolder').html( '<video ' + vbuka + Server1  + vtutup );
@@ -37,9 +40,10 @@ $(document).ready(function(){
 		$(this).attr("href", VS2); 
   		var Server2 = document.getElementById("LS2").href;
 		$(this).attr("style", "display:none;"); 
+    		var defaultCoverURL = 'https://1.bp.blogspot.com/-tLx71YR7oUA/X5HeT7uNqKI/AAAAAAAACmg/U6Ulo1CUi7sHgMykPzpuKzNu9VqEdWq9QCLcBGAsYHQ/s720-k/NiiHen.gif';
     		$('#ListServer2').html( ' <button id="Serv2">Server Aman</button> ' );
     			$("#Serv2").click(function(){
-			var vbuka = ' pause controls controlsList="nodownload" oncontextmenu="return false;" style="width:100%;height:270px;">\n'+
+			var vbuka = ' cover="'+defaultCoverURL+'" pause controls controlsList="nodownload" oncontextmenu="return false;" style="width:100%;height:270px;">\n'+
 			'<source src="';
 			var vtutup = '" type="video/mp4"></video>';
 			$('#iframeHolder').html( '<video ' + vbuka + Server2  + vtutup );
