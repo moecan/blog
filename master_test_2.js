@@ -18,30 +18,30 @@ $(document).ready(function(){
 		});
 	});
 	
-  $('a[href^="http://hentai.dx.am/id?=1"]').each(function(){
-    var LS1 = $(this).attr("href"); 
+	$('a[href^="http://hentai.dx.am/id?=1"]').each(function(){
+    		var LS1 = $(this).attr("href"); 
 		var VS1 = LS1.replace("http://hentai.dx.am/id?=1&v=", creampie); 
 		$(this).attr("id", "LS1"); 
 		$(this).attr("href", VS1); 
-  	  var Server1 = document.getElementById("LS1").href;
+  	  	var Server1 = document.getElementById("LS1").href;
 		$(this).attr("style", "display:none;"); 
-    	$('#ListServer').html( ' <button id="Serv1">Server Alternatif</button> ' );
-			$("#Serv1").click(function(){
-            $('#iframeHolder').html( '<video ' + vbuka + Server1  + vtutup );
-			});
-  });
+    		$('#ListServer').html( ' <button id="Serv1">Server Alternatif</button> ' );
+		$("#Serv1").click(function(){
+            		$('#iframeHolder').html( '<video ' + vbuka + Server1  + vtutup );
+		});
+  	});
   
-  $('a[href^="http://hentai.dx.am/id?=2"]').each(function(){
-    var LS2 = $(this).attr("href"); 
+  	$('a[href^="http://hentai.dx.am/id?=2"]').each(function(){
+    		var LS2 = $(this).attr("href"); 
 		var VS2 = LS2.replace("http://hentai.dx.am/id?=2&v=", creampie); 
 		$(this).attr("id", "LS2"); 
 		$(this).attr("href", VS2); 
   		var Server2 = document.getElementById("LS2").href;
 		$(this).attr("style", "display:none;"); 
-    	$('#ListServer2').html( ' <button id="Serv2">Server Aman</button> ' );
-    	$("#Serv2").click(function(){
-			      $('#iframeHolder').html( '<video ' + vbuka + Server2  + vtutup );
-			});
+    		$('#ListServer2').html( ' <button id="Serv2">Server Aman</button> ' );
+    		$("#Serv2").click(function(){
+			$('#iframeHolder').html( '<video ' + vbuka + Server2  + vtutup );
+		});
   });	
   
 });
