@@ -42,6 +42,6 @@ $(document).ready(function(){
     		$("#Serv2").click(function(){
 			$('#iframeHolder').html( '<video ' + vbuka + Server2  + vtutup );
 		});
-  });	
+  	});	
   
 });
