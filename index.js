@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	var creampie = "https://drive.google.com/uc?export=view&id=";
 	var defaultCoverURL = 'https://1.bp.blogspot.com/-tLx71YR7oUA/X5HeT7uNqKI/AAAAAAAACmg/U6Ulo1CUi7sHgMykPzpuKzNu9VqEdWq9QCLcBGAsYHQ/s720-k/NiiHen.gif';
-	var vbuka = ' cover="'+defaultCoverURL+'" pause controls controlsList="nodownload" oncontextmenu="return false;" style="width:100%;height:270px;">\n'+
+	var vbuka = ' id="BACOL" cover="'+defaultCoverURL+'" pause controls controlsList="nodownload" oncontextmenu="return false;" style="width:100%;height:270px;">\n'+
 	'<source src="';
 	var vtutup = '" type="video/mp4"></video>';
   
